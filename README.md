@@ -77,6 +77,5 @@ Here’s a quick overview of the Angular features explored in this project:
 
 To run this project locally:
 
-1. Clone the repo:
-2. Install dependencies: npm i
-3. Start the development server: ng serve -o
+1. Install dependencies: npm i
+2. Start the development server: ng serve -o
