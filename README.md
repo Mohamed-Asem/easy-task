@@ -1,59 +1,82 @@
-# Day1
+# Core Angular Essentials App 🚀
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
+## About the Project
 
-## Development server
+This project was built as part of my Angular journey while completing **Maximilian Schwarzmüller's Angular Course** on Udemy.  
+The goal of this app is to **explore and demonstrate** the most essential core concepts of Angular by building a simple but powerful web application.
 
-To start a local development server, run:
+It’s not just a demo — it’s a collection of important best practices, techniques, and fundamental Angular building blocks that every developer needs to master to create enterprise-level web applications.
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Why I Built This App
 
-## Code scaffolding
+While learning Angular, it became clear that understanding **core concepts** deeply is crucial.  
+Instead of just reading theory, I decided to **put everything into practice** by creating this app — applying concepts like component-driven architecture, event handling, services, dependency injection, two-way binding, dynamic styling, and more.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+This app acts like a **playground** for experimenting and solidifying Angular knowledge.
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Key Angular Concepts Covered 🧠
 
-```bash
-ng generate --help
-```
+Here’s a quick overview of the Angular features explored in this project:
 
-## Building
+- **What is Angular?**
+  - A frontend framework + a rich collection of development tools.
+- **Why Angular over Vanilla JS?**
+  - Declarative programming, reusable components, better state management, TypeScript support, and separation of concerns.
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+### Core Topics Implemented
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+✅ **String Interpolation**: Display dynamic content inside the templates.
 
-## Running unit tests
+✅ **Property Binding**: Dynamically bind DOM properties like `src`, `alt`, etc.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+✅ **Getters for Computed Values**: Cleanly derive dynamic data for templates.
 
-```bash
-ng test
-```
+✅ **Event Binding**: Handle user interactions declaratively inside the templates.
 
-## Running end-to-end tests
+✅ **Managing State**: Reflecting UI changes automatically when data changes.
 
-For end-to-end (e2e) testing, run:
+✅ **Change Detection**: Angular's automatic UI updates powered by `zone.js`.
 
-```bash
-ng e2e
-```
+✅ **Component Inputs (@Input)**: Passing dynamic data into reusable components.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+✅ **Custom Outputs (@Output & EventEmitter)**: Emit custom events to parent components.
 
-## Additional Resources
+✅ **Dynamic CSS Styling**: Conditional class application with class binding.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+✅ **Directives and Two-way Binding**: Using `ngModel` for seamless form management.
+
+✅ **Content Projection (ng-content)**: Allowing flexible templates inside components.
+
+✅ **Pipes**: Transforming template data (e.g., date formatting).
+
+✅ **Services and Dependency Injection**:
+
+- Centralizing business logic and data manipulation.
+- Injecting services using constructor injection and `inject()` function.
+
+✅ **Using Local Storage**: Persisting data across page reloads.
+
+---
+
+## Technologies Used 🛠️
+
+- **Angular** (v16+)
+- **TypeScript**
+- **HTML5 & CSS3**
+- **Angular CLI**
+
+---
+
+## Getting Started
+
+To run this project locally:
+
+1. Clone the repo:
+2. Install dependencies: npm i
+3. Start the development server: ng serve -o
