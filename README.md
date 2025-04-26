@@ -66,7 +66,7 @@ Here’s a quick overview of the Angular features explored in this project:
 
 ## Technologies Used 🛠️
 
-- **Angular** (v16+)
+- **Angular** (v19)
 - **TypeScript**
 - **HTML5 & CSS3**
 - **Angular CLI**
